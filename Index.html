@@ -52,6 +52,65 @@
         li {
             margin-bottom: 8px;
         }
+        .author-sign {
+            margin-top: 15px;
+            font-weight: bold;
+            color: #e63946;
+        }
+        .question-box {
+            text-align: center;
+            margin-top: 40px;
+            padding: 25px;
+            background: #fff0f3;
+            border-radius: 12px;
+            border: 2px dashed #ffb3c1;
+        }
+        .question-box h2 {
+            color: #e63946;
+            font-size: 22px;
+            margin-bottom: 20px;
+        }
+        .buttons-wrap {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            position: relative;
+            min-height: 50px;
+        }
+        .btn {
+            padding: 10px 28px;
+            font-size: 16px;
+            font-weight: bold;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: transform 0.2s ease, background 0.2s ease;
+        }
+        .btn-yes {
+            background-color: #e63946;
+            color: #ffffff;
+        }
+        .btn-yes:hover {
+            background-color: #d62828;
+            transform: scale(1.05);
+        }
+        .btn-no {
+            background-color: #adb5bd;
+            color: #ffffff;
+            position: relative;
+        }
+        #success-message {
+            display: none;
+            margin-top: 20px;
+            font-size: 20px;
+            font-weight: bold;
+            color: #e63946;
+            animation: fadeIn 0.8s forwards;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
     </style>
 </head>
 <body>
@@ -63,7 +122,6 @@
         <p>A few thoughts and feelings I wanted to share with you...</p>
     </header>
 
-    <!-- First Image (Replace pic1.jpg with actual path/URL) -->
     <div class="img-container">
         <img src="https://i.ibb.co/PsqTqmS3/Lucky-3.jpg" alt="Lucky-3" border="0">
     </div>
@@ -77,12 +135,9 @@ From the moment you came into my life, something shifted. You brought a kind of.
 
 I think about you more than I probably should. You make the ordinary moments feel special, and the hard days a little easier. You’ve become someone I truly look up to, someone I deeply admire, and someone I want in my life—not just as a part, but as the most important part. ♥
     </div>
-<div class="img-container">
-        <img src="https://i.ibb.co/6RrZFxS5/Lucky-2.jpg" alt="Lucky-2" border="0">
-    </div>
+
     <div class="content-box">
-    <div>
-        <h3>Confession</h3>
+        <h3 style="color: #e63946;">Confession</h3>
         <ul>
             <li>Some feelings are hard to say, but impossible to hide. ♥</li>
             <li>You are the first thought in my morning, and the last prayer in my night.</li>
@@ -94,20 +149,22 @@ I think about you more than I probably should. You make the ordinary moments fee
         </ul>
     </div>
 
-<div class="img-container">
-        <img src="https://i.ibb.co/Kp4h5yr2/Lucky-1.jpg" alt="Lucky-1" border="0">
-    </div>
     <div class="content-box">
-        <h3>A Letter to the Person Who Feels Like Home ♥</h3>
-        <p>
-You are not just a person, you are my safe place. The one where my heart finally learned to rest. ♥<br><br>
-When life gets too loud, your presence is the silence I crave. When the world feels so heavy, you are the calm that holds me. ♥<br><br>
-Home is not a place, it’s the way you understand me without me having to say a word. It’s the way you stay, even when I am hard to love. ♥<br><br>
+        <h3 style="color: #e63946;">A Letter to the Person Who Feels Like Home ♥</h3>
+        <div>
+You are not just a person, you are my safe place. The one where my heart finally learned to rest. ♥
+
+When life gets too loud, your presence is the silence I crave. When the world feels so heavy, you are the calm that holds me. ♥
+
+Home is not a place, it’s the way you understand me without me having to say a word. It’s the way you stay, even when I am hard to love. ♥
+
 Thank you for being my today and all of my tomorrows. For making me feel cherished, seen, and completely mine. ♥
-        </p>
+        </div>
     </div>
 
-    <!-- Second Image (Replace pic2.jpg with actual path/URL) -->
+    <div class="img-container">
+        <img src="https://i.ibb.co/6RrZFxS5/Lucky-2.jpg" alt="Lucky-2" border="0">
+    </div>
 
     <div class="content-box">
 You were the best unplanned thing that ever happened in my life.
@@ -115,12 +172,131 @@ I never searched for you.
 I never expected you.
 I never imagined that an ordinary day would introduce me to someone who would quietly change the way I looked at life.
 
-...
+You came into my world without a warning, without a perfect plan, and without any promises.
+Yet somehow, you became one of the greatest blessings I have ever known.
+You taught me that not everything beautiful needs to be planned.
+Some of life's most precious moments happen when we stop trying to control every detail and simply allow life to surprise us.
 
-Maine noor dekha mujhe usse bhi nayab tum lagi...
+You became my comfort on difficult days, my smile when life felt heavy, and the reminder that the universe sometimes knows exactly what we need before we do.
+
+If someone had asked me before we met what my future would look like, I could never have described you.
     </div>
 
+    <div class="content-box">
+Every conversation with you feels like my favourite part of the day.
+
+You make the ordinary feel beautiful, just by being in it.
+
+I didn't plan on falling this hard, but here I am—and I'm so glad I didn't hold back.
+
+You're not just a part of my life, you're the reason it feels so right.
+
+<div class="author-sign">Always you</div>
+    </div>
+
+    <div class="content-box">
+Maine noor dekha mujhe usse bhi nayab tum lagi,
+Maine chand dekha mujhe usse bhi bedag tum lagi,
+Maine samandar dekha mujhe usse bhi gehri tumhari aakhein lagi,
+Maine titli dekhi mujhe usse bhi sundar tumhara chehra laga,
+Maine phool dekha mujhe usse bhi sundar tumhare baal lage,
+Maine sone ki hiran dekhi mujhe usse bhi sundar tumhare honth lage,
+Maine padh dekha mujhe usse komal tumhari kamar lagi,
+Maine reshami makhmali gaal dekhe,
+Mujhe uske baad sab kuch gawara lagta hai maine,
+Maine dekhi Sita aur dekhi Radha, mujhe us sabse sundar tum lagi,
+Maine sangamarmar bhi dekha, mujhe usse komal tumhare ye haath lage hai,
+Jab dekhu kisi khubsurat chamakte hue patthar ko jo thoda sakht aur jyada komal ho toh lagta hai,
+Isme abhi vo baat nahi jo baat tumhare pair ke ankle me hai,
+Aur maine lalaat dekhi hai phoolon ki mujhe usse nazuk aur pakiza tumhari kalayi lgti hai.
+    </div>
+
+    <!-- Closing the text section cleanly -->
+<div class="content-box">
+    And maybe that's the beauty of it. Because the best things in life rarely arrive when we're expecting them. They appear quietly, change us gently, and leave our hearts fuller than they were before.
 </div>
 
-</body>
-</html>
+<!-- Interactive Proposal Area -->
+<div class="question-box">
+    <h2>Will you make me the happiest person and accept my feelings? ♥</h2>
+    <div class="buttons-wrap" id="btn-group">
+        <button type="button" class="btn btn-yes" onclick="showAcceptance()">Yes</button>
+        <button type="button" class="btn btn-no" id="no-btn" onmouseover="moveButton()" ontouchstart="moveButton()">No</button>
+    </div>
+    <div id="success-message">
+        💖 You just made my entire world complete! ♥
+    </div>
+</div>
+
+<!-- Essential Styles for this block -->
+<style>
+    .question-box {
+        text-align: center;
+        margin-top: 30px;
+        padding: 25px;
+        background: #fff0f3;
+        border-radius: 12px;
+        border: 2px dashed #ffb3c1;
+    }
+    .question-box h2 {
+        color: #e63946;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .buttons-wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        min-height: 60px;
+        position: relative;
+    }
+    .btn {
+        padding: 10px 28px;
+        font-size: 16px;
+        font-weight: bold;
+        border: none;
+        border-radius: 25px;
+        cursor: pointer;
+        transition: transform 0.2s ease;
+    }
+    .btn-yes {
+        background-color: #e63946;
+        color: #ffffff;
+    }
+    .btn-yes:hover {
+        background-color: #d62828;
+        transform: scale(1.08);
+    }
+    .btn-no {
+        background-color: #adb5bd;
+        color: #ffffff;
+        position: relative;
+        transition: transform 0.15s ease-out;
+    }
+    #success-message {
+        display: none;
+        margin-top: 20px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #e63946;
+    }
+</style>
+
+<!-- Essential Script for the buttons -->
+<script>
+    function showAcceptance() {
+        var btnGroup = document.getElementById('btn-group');
+        var successMsg = document.getElementById('success-message');
+        if (btnGroup) btnGroup.style.display = 'none';
+        if (successMsg) successMsg.style.display = 'block';
+    }
+
+    function moveButton() {
+        var noBtn = document.getElementById('no-btn');
+        if (!noBtn) return;
+        var randomX = (Math.random() - 0.5) * 220;
+        var randomY = (Math.random() - 0.5) * 120;
+        noBtn.style.transform = 'translate(' + randomX + 'px, ' + randomY + 'px)';
+    }
+</script>
